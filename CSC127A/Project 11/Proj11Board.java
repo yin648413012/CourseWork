@@ -46,10 +46,11 @@ public class Proj11Board
     //Initializes a string for tile numbers to be converted to for stdDraw
     private String tileNumString;
     
-//!!!CONSTRUCTOR METHOD!!!///
-    
+//Constructor Method
+//Initializes all variables in a Proj11Board class
     public Proj11Board()
     {
+        //The board itself
         board = new int[4][4];
         for (int j = 0; j<board.length; j++)
         {
@@ -59,6 +60,7 @@ public class Proj11Board
             }
         }
         
+        //Other variables for handling turns, new numbers, and losing
         maxTiles = 16;
         numberOfTiles = 0;
         randX = new Random(4);
@@ -68,11 +70,8 @@ public class Proj11Board
         tileNumString="";
     }   
     
-    
-    
-    
-    /////////////////////////////////
-    
+    //This method assigns all the tiles/values on the board to 0
+    //and their string values to "" (nothing) and draws the grid/board
     public void draw()
     {
         
@@ -108,7 +107,9 @@ public class Proj11Board
         
     }
     
-
+    //This method assigns a random tile the value of either 2 or 4
+    //There is a 75% chance the value will be 2 and a 25% chance it will be a 4.
+    //This method also handles losing, as it checks if all the tiles have a value.
     public void addOne()
     {   
         //Re-initializes the new tile number being added to be a 2
@@ -162,6 +163,12 @@ public class Proj11Board
         }
     
     ///////////////////////////////////////
+    
+    //The following methods either handles shifts or collapses in a specified direction
+    //Shifts: The method moves all of the tiles and their values to a specified side of the board
+    //as much as possible.
+    //Collapse: The method handles the merging of tiles and their values towards a specified side.
+    //The tiles must have the same values in order to collapse with each other.
     
     public boolean shiftUp()
     {
