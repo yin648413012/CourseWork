@@ -1,0 +1,84 @@
+Enter seed value: 
+
+Pig Dice
+Enter name for player 1: Enter name for player 2: 	Hello Ziggy and Elmer, welcome to Pig Dice!
+
+--- SCORES	Ziggy: 0	Elmer: 0 ---
+---------- Ziggy's turn ----------
+	<<< Ziggy rolls a 2 >>>
+	Points: 2
+Roll again, Ziggy? (Y/N) 	<<< Ziggy rolls a 2 >>>
+	Points: 4
+Roll again, Ziggy? (Y/N) I don't understand: "Si". Please enter either "Y" or "N".
+Roll again, Ziggy? (Y/N) I don't understand: "Yes". Please enter either "Y" or "N".
+Roll again, Ziggy? (Y/N) 	<<< Ziggy rolls a 5 >>>
+	Points: 9
+Roll again, Ziggy? (Y/N) 	<<< Ziggy rolls a 3 >>>
+	Points: 12
+Roll again, Ziggy? (Y/N) 
+--- SCORES	Ziggy: 12	Elmer: 0 ---
+---------- Elmer's turn ----------
+	<<< Elmer rolls a 5 >>>
+	Points: 5
+Roll again, Elmer? (Y/N) 
+--- SCORES	Ziggy: 12	Elmer: 5 ---
+---------- Ziggy's turn ----------
+	<<< Ziggy rolls a 6 >>>
+	Points: 6
+Roll again, Ziggy? (Y/N) 	<<< Ziggy rolls a 2 >>>
+	Points: 8
+Roll again, Ziggy? (Y/N) 	<<< Ziggy rolls a 3 >>>
+	Points: 11
+Roll again, Ziggy? (Y/N) 	<<< Ziggy rolls a 2 >>>
+	Points: 13
+Roll again, Ziggy? (Y/N) 
+--- SCORES	Ziggy: 25	Elmer: 5 ---
+---------- Elmer's turn ----------
+	<<< Elmer rolls a 5 >>>
+	Points: 5
+Roll again, Elmer? (Y/N) 
+--- SCORES	Ziggy: 25	Elmer: 10 ---
+---------- Ziggy's turn ----------
+	<<< Ziggy rolls a 3 >>>
+	Points: 3
+Roll again, Ziggy? (Y/N) 	<<< Ziggy rolls a 5 >>>
+	Points: 8
+Roll again, Ziggy? (Y/N) 
+--- SCORES	Ziggy: 33	Elmer: 10 ---
+---------- Elmer's turn ----------
+	<<< Elmer rolls a 6 >>>
+	Points: 6
+Roll again, Elmer? (Y/N) 	<<< Elmer rolls a 1 >>>
+	!!! PIG! No points earned, sorry Elmer !!!
+(enter to continue)
+--- SCORES	Ziggy: 33	Elmer: 10 ---
+---------- Ziggy's turn ----------
+	<<< Ziggy rolls a 1 >>>
+	!!! PIG! No points earned, sorry Ziggy !!!
+(enter to continue)
+--- SCORES	Ziggy: 33	Elmer: 10 ---
+---------- Elmer's turn ----------
+	<<< Elmer rolls a 6 >>>
+	Points: 6
+Roll again, Elmer? (Y/N) 
+--- SCORES	Ziggy: 33	Elmer: 16 ---
+---------- Ziggy's turn ----------
+	<<< Ziggy rolls a 6 >>>
+	Points: 6
+Roll again, Ziggy? (Y/N) 	<<< Ziggy rolls a 2 >>>
+	Points: 8
+Roll again, Ziggy? (Y/N) 	<<< Ziggy rolls a 4 >>>
+	Points: 12
+Roll again, Ziggy? (Y/N) 
+--- SCORES	Ziggy: 45	Elmer: 16 ---
+---------- Elmer's turn ----------
+	<<< Elmer rolls a 5 >>>
+	Points: 5
+Roll again, Elmer? (Y/N) 
+--- SCORES	Ziggy: 45	Elmer: 21 ---
+---------- Ziggy's turn ----------
+	<<< Ziggy rolls a 6 >>>
+	Points: 6
+Roll again, Ziggy? (Y/N) 
+--- SCORES	Ziggy: 51	Elmer: 21 ---
+THE WINNER IS: Ziggy!!!!!
