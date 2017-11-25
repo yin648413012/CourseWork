@@ -96,13 +96,9 @@ public class Proj11Board
                 //Re-initializes String to nothing 
                 tileNumString = "";
                 }
-                
-                //System.out.printf("%d ", board[i][j]);
-               
                 //Draws the grid
                 StdDraw.square(i,j,.5);
             }
-            //System.out.println();
         }
         
     }
@@ -156,19 +152,17 @@ public class Proj11Board
         {
             newTileNumber = 4;
         }
-        //System.out.println("X: " + newTileX);
-        //System.out.println("Y: " + newTileY);
         board[newTileX][newTileY] = newTileNumber;
 
         }
-    
-    ///////////////////////////////////////
     
     //The following methods either handles shifts or collapses in a specified direction
     //Shifts: The method moves all of the tiles and their values to a specified side of the board
     //as much as possible.
     //Collapse: The method handles the merging of tiles and their values towards a specified side.
     //The tiles must have the same values in order to collapse with each other.
+    
+    //Up:
     
     public boolean shiftUp()
     {
@@ -275,9 +269,7 @@ public class Proj11Board
         return true;
     }
     
-    
-    //////////////////////////////////////////
-    
+    //Down:
     
     public boolean shiftDown()
     {
@@ -383,7 +375,7 @@ public class Proj11Board
         return true;
     }
     
-    //////////////////////////////////////////
+    //Left:
     
     public boolean shiftLeft()
     {
@@ -490,7 +482,7 @@ public class Proj11Board
         return true;
     }
     
-    ///////////////////////
+    //Right:
     
     public boolean shiftRight()
     {  
